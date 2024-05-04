@@ -9,13 +9,13 @@ HLK-LD2410s sensor
 Jumper wires
 WiFi connection
 
-##How to Set Up
+## How to Set Up
 
 Connect the Sensor: Connect the TX pin of the sensor to pin 32 and the RX pin to pin 33 on the ESP32.
 Flash the ESP32: Use the Arduino IDE to flash the ESP32 with the provided code.
 Set Up the Web Server: The ESP32 will host a web server that you can access to see if a human is detected.
 
-##How to Use
+## How to Use
 
 Connect to the Web Server: Open a web browser and enter the IP address of the ESP32. You can find this in the serial monitor of the Arduino IDE.
 Check for Human Presence: The web page will show if a human is detected. It updates every second.
